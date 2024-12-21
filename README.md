@@ -1,1 +1,2 @@
 # MNIST-MLP-with-Hyperparameter-Tuning
+This project demonstrates how to build an MLP on the MNIST dataset to reach around 98% accuracy. We first manually select a good learning rate using a custom callback (ExponentialLearningRate), then we integrate Keras Tuner to automate hyperparameter tuning (number of hidden layers, neurons, optimizer choice, learning rate, etc.). By increasing the number of trials in Keras Tuner, we improve our model’s accuracy and ultimately achieve around 0.9762 on the test set.
